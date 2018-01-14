@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         mToysLsitTextView = (TextView) findViewById(R.id.tv_toy_names);
         String[] toyNames = ToyBox.getToyNames();
         for (String toyName : toyNames) {
-            mToysLsitTextView.append(toyName + "\n");
+            mToysLsitTextView.append(toyName + "\n\n\n");
         }
     }
 }
